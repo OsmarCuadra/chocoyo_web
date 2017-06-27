@@ -1,0 +1,95 @@
+
+<footer id="contact" class="footer section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Contáctanos</h3>
+        <div class="contact-info">
+          <p><i class="fa fa-map-marker"></i>{{ site.address | escape }} </p>
+          <p><i class="fa fa-tablet"></i><a href=""> (505) {{ site.phone_movistar | escape }} (Movistar)</a></p>
+          <p><i class="fa fa-tablet"></i><a href=""> (505) {{ site.phone_claro | escape }} (Claro)</a></p>
+          <p><i class="fa fa-envelope-o"></i><a href="mailto:{{ site.email }}" target="_top">mailto:{{ site.email }}</a></p>
+          <p><i class="fa fa-globe"></i> <a href="{{ site.website | escape }}"> {{ site.website | escape }}</a></p>
+        </div>
+        <h3>Síguenos en</h3>
+
+        <ul class="social-icons">
+          <li>
+            <a href="{{ site.facebook | escape }}" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="{{ site.twitter | escape }}" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="{{ site.instagram | escape }}" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="{{ site.youtube | escape }}" target="_blank" class="social-icon"> <i class="fa fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="{{ site.linkedin | escape }}" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="col-md-6">
+      </div>
+      <!--- END COL -->
+    </div>
+    <!--- END ROW -->
+  </div>
+  <!--- END CONTAINER -->
+</footer>
+<!--FOOTER END-->
+<a href="#" id="back-to-top" class="btn btn-round" title="Back to top"><i class="fa fa-long-arrow-up"></i></a>
+<div class="footer-bottom">
+  <div class="container">
+    <div style="visibility: visible; animation-name: zoomIn;" class="col-md-12 text-center wow zoomIn">
+      <div class="footer_copyright">
+        <p>© {{site.year | escape}} {{ site.agency | escape }}. Todos los derechos reservados</p>
+        <div class="credits">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <div id="preloader"> 
+    	<div id="loader">
+        <img src="/img/favicon.ico" />
+      </div>
+   </div> 
+	<script type="text/javascript" src="{{ site.baseurl }}/script/jquery.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/slick.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/custom.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/parallax.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/wow.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/menu-animated.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/classie.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/jcarousel.responsive.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/script/jquery.jcarousel-autoscroll.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			$('.header-video').each(function (i, elem) {
+				headerVideo = new HeaderVideo({
+					element: elem,
+					media: '.header-video__media',
+					playTrigger: '.header-video__play-trigger',
+					closeTrigger: '.header-video__close-trigger'
+				});
+			});
+			$('.deploy').click(function () {
+
+				$(".pleg").slideToggle("slow");
+			});
+		});
+	</script>

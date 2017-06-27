@@ -1,0 +1,47 @@
+- name: Tania Narvaez
+  title: Co-Founder & CMO
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: img/team/team1.jpg
+
+- name: Mariana Villalobos
+  title: Financial Counselor 
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: img/team/team2.jpg
+
+- name: Keneth Betancour
+  title: Web developer
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: img/team/team3.jpg
+
+- name: Diana Huete
+  title: Graphic designer
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: img/team/team4.jpg
+
+- name: Jeral Urrutia
+  title: Graphic designer
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: img/team/team5.jpg
+
+- name: Amy Barroteran
+  title: Comunity Manager
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: img/team/team6.jpg
+
+- name: Aaron Mercado
+  title: Web developer
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: img/team/avatar.png
+
+- name: Osmar Calderóm
+  title: Mobile developer
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: img/team/avatar.png

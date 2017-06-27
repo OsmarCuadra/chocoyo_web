@@ -1,0 +1,31 @@
+# Contact information
+agency: Chocoyo Labs
+year: 2017
+title: Chocoyo Labs
+email: info@chocoyolabs.com
+address: De la DGI o TransNica 150 metros al norte, contiguo a Joyería Garzon.
+phone_movistar: tel:+50586889998
+phone_claro: tel:+50586914848
+website: http://www.chocoyolabs.com/
+facebook: https://www.facebook.com/ChocoyoLabs/
+twitter: https://twitter.com/ChocoyoLabs
+instagram: https://www.instagram.com/chocoyolabs/
+youtube: https://www.youtube.com/channel/UCqV-51GPkWR2mSMS_GcimsQ
+linkedin: https://www.linkedin.com/company/chocoyo-lab
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,54 @@
+- name: Selfie beneficios
+  image: img/portafolio/1.png
+  category: Mobile, web
+  modal: modal-01
+  description: Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+
+- name: El informante
+  image: img/portafolio/2.png
+  category: Mobile, web
+  modal: modal-02
+  description: Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+
+- name: Saldo Tuc
+  image: img/portafolio/3.png
+  category: Mobile, web
+  modal: modal-03
+  description: Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+  
+- name: Multas de transito
+  image: img/portafolio/4.png
+  category: Mobile, web
+  modal: modal-04
+  description: Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+  
+- name: Me exijo
+  image: img/portafolio/5.png
+  category: Mobile, web
+  modal: modal-05
+  description: Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+  
+- name: Wimix
+  image: img/portafolio/6.png
+  category: Mobile, web
+  modal: modal-06
+  description: Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+  
+- name: Geyser
+  image: img/portafolio/7.png
+  category: Mobile, web
+  modal: modal-07
+  description: Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+
+- name: Proyecto 17
+  image: img/portafolio/8.png
+  category: Mobile, web
+  modal: modal-08
+  description: Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+
+- name: Credicom
+  image: img/portafolio/9.png
+  category: Mobile, web
+  modal: modal-09
+  description: Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+  
