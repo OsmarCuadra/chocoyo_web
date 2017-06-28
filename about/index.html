@@ -3,7 +3,7 @@ title: About
 permalink: /about 
 --- 
 {% include head.html %} 
-{% include nav_bar.html %}
+{% include side_bar_page.html %}
 <div class="wide">
 	<div class="banner_logo">
 		<img src="{{ site.baseurl }}/img/logo_header.png" />
@@ -23,10 +23,11 @@ permalink: /about
 			<h5>Autodidactas sin gana alguna de ir a la universidad</h5>
 		</div>
 		<div class="col-md-6">
-			<img src="{{ site.baseurl }}/img/about.png" />
+			<img src="{{ site.baseurl }}/img/about.png" class="img-responsive" />
 		</div>
 
- {% include team.html %}
 	</div>
+
+ {% include team.html %}
 </div>
 {% include footer.html %}
