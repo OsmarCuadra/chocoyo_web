@@ -5,7 +5,7 @@
  * Released under the MIT, BSD, and GPL Licenses.
  * based on jQuery Plugin Boilerplate 1.3
  */
-(function(e) {
+/*(function(e) {
     e.backgroundVideo = function(t, n) {
         var r = {
             videoid: "video_background"
@@ -94,3 +94,4 @@ $(document).ready(function() {
         //"types": ["mp4","ogg","webm"]
     });
 });
+*/
