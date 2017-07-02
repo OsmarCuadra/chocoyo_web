@@ -19,6 +19,10 @@
   font-family: 'domine-regular';
     src: url(../fonts/domine-regular.ttf);
 }
+@font-face{
+  font-family: 'montserrat-regular';
+  src: url(../fonts/montserrat-regular-webfont.ttf)
+}
 .row{
     margin-right: 0;
     margin-left: 0;
@@ -744,8 +748,8 @@ ul.social-icons {
 
 }
 .pymes-section{
-  background-image: url(../img/business.jpg); 
-  background-position: 100% 100%;
+  background-image: url(../img/device_bg.jpg); 
+  background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
@@ -1566,7 +1570,7 @@ input::-moz-focus-inner {
 
 }
 
-
+  
 /*--------About ---------------*/
 
 .wide {
@@ -1935,3 +1939,85 @@ footer .social-links li {
 footer .social-links li:first-child { margin-left: 0; }
 
 /* ================================================================== */
+
+/* k. Blog Post
+
+/* ================================================================== */
+
+.post {
+   background: #f5f5f5  ;
+   padding-top: 120px;
+   color: #838C95;
+   font: 15px/30px opensans-regular, sans-serif;
+   padding-bottom: 90px;
+}
+.post .entry-header {
+   position: relative;
+   width: 100%;
+}
+.post .entry-header h1 {
+   font: 45px/60px montserrat-regular, sans-serif;
+   color: #313131;
+   width: 83.33333%;
+   padding-right: 12%;
+   float: right;
+}
+.post .post-meta {
+   float: left;
+   text-align: right;
+   width: 16.66667%;
+   color: #bec0c1;
+   padding-right: 36px;
+   font: 14px/24px montserrat-regular, sans-serif;
+   margin: 6px 0 6px 0;
+}
+.post .post-image {
+    margin: 24px 0 36px 0;
+    width: 100%;
+}
+.post .post-meta a,
+.post .post-meta a:visited { color: #B9BBBC; }
+.post .post-meta a:hover,
+.post .post-meta a:focus { color: #11ABB0; }
+
+.post .post-meta .date {
+   margin-bottom: 18px;
+   display: block;
+}
+.post .post-meta .date:before,
+.post .post-meta .categories:before {
+   display: block;
+   font: 14px/24px montserrat-regular, sans-serif;
+   color: #313131;
+   text-align: right;
+}
+
+.post .post-meta .date:before { content: "Published"; }
+.post .post-meta .categories:before { content: "Tecnologías"; }
+.post .post-meta .categories a { display: block; }
+
+/* hide sep */
+.post .post-meta .categories .sep { display: none; }
+
+/* post image */
+.post .post-image {
+  margin: 24px 0 36px 0;
+  width: 100%;
+}
+
+/* post content */
+.post .post-content {
+   margin-bottom: 24px;
+   width: 75%;
+}
+
+/* tags */
+.post .post-content .tags {
+  margin-top: 18px;
+  font-family: opensans-light, sans-serif;
+}
+.post .post-content .tags a { font-family: opensans-bold, sans-serif; }
+
+
+
+
