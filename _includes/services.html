@@ -1,5 +1,5 @@
 <section id="services">
-<div class="page-title text-center container">
+	<div class="page-title text-center container">
 		<h1>Servicios que tenemos para tí</h1>
 		<p class="wow zoomIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 			<br />incididunt ut labore et dolore magna aliqua.
@@ -8,42 +8,16 @@
 	</div>
 	<section id="one" class="wrapper style1">
 		<div class="container">
-			<article class="feature left">
-				<span class="image wow fadeInUp"><img src="img/graphical.jpg" alt="" /></span>
+			{% for service in site.data.services %}
+			<article class="feature {{ service.position }}">
+				<span class="image wow fadeInUp"><img class="img-responsive" src="{{ service.image }}" alt="" /></span>
 				<div class="content">
-					<h2>Diseño gráfico</h2>
-					<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero,
-						faucibus adipiscing, commodo quis, gravida id, est.</p>
-					<a class="button stroke" href="{{ site.baseurl }}/services/design">Ver detalles</a>
+					<h2>{{ service.name }}</h2>
+					<p>{{ service.description | truncatewords: 20 }}</p>
+					<a class="button stroke" href="{{ site.baseurl }}{{ service.href }}">Ver detalles</a>
 				</div>
 			</article>
-			<article class="feature right">
-				<span class="image wow fadeInUp"><img src="img/web.jpg" alt="" /></span>
-				<div class="content">
-					<h2>Desarrollo de páginas web</h2>
-					<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero,
-						faucibus adipiscing, commodo quis, gravida id, est.</p>
-					<a class="button stroke" href="{{ site.baseurl }}/services/web">Ver detalles</a>
-				</div>
-			</article>
-			<article class="feature left">
-				<span class="image wow fadeInUp"><img src="img/mobile.jpg" alt="" /></span>
-				<div class="content">
-					<h2>Desarrollo de Apps móviles</h2>
-					<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero,
-						faucibus adipiscing, commodo quis, gravida id, est.</p>
-					<a class="button stroke" href="{{ site.baseurl }}/services/mobile">Ver detalles</a>
-				</div>
-			</article>
-			<article class="feature right">
-				<span class="image wow fadeInUp"><img src="img/media.jpg" alt="" /></span>
-				<div class="content">
-					<h2>Marketing digital</h2>
-					<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero,
-						faucibus adipiscing, commodo quis, gravida id, est.</p>
-					<a class="button stroke" href="{{ site.baseurl }}/services/marketing">Ver detalles</a>
-				</div>
-			</article>
+			{% endfor %}
 		</div>
 	</section>
-	</section>
+</section>
