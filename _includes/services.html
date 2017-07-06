@@ -10,7 +10,7 @@
 		<div class="container">
 			{% for service in site.data.services %}
 			<article class="feature {{ service.position }}">
-				<span class="image wow fadeInUp"><img class="img-responsive" src="{{ service.image }}" alt="" /></span>
+				<span class="image wow fadeInUp"><img class="img-responsive" src="{{ site.url }}/{{ service.image }}" alt="" /></span>
 				<div class="content">
 					<h2>{{ service.name }}</h2>
 					<p>{{ service.description | truncatewords: 20 }}</p>

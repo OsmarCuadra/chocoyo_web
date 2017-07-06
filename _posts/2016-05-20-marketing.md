@@ -1,6 +1,6 @@
 ---
 title: Marketing digital
-permalink: /services/:title
+permalink: /services/:title/
 image: "../img/services-bg.jpg"
 layout: page
 tags: [Facebook, Twitter, Instagram, Linkedin]
